@@ -282,7 +282,7 @@ footer {
 }
 
 /* Media Queries */
-/* Large Laptop */
+/* Large screens - Laptops */
 @media (max-width: 1024px) {
     /* Products */
     .product__details__title {
@@ -294,3 +294,12 @@ footer {
         padding: 0 80px;
     }
 }
+
+/* iPad */
+@media (max-width: 768px) {
+    /* Products */
+    .product {
+        width: calc(33.3333% - (32px / 3));
+    }
+}
+
