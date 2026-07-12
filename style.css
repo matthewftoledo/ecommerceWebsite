@@ -295,11 +295,20 @@ footer {
     }
 }
 
-/* iPad */
+/* MD Screens - iPad */
 @media (max-width: 768px) {
     /* Products */
     .product {
         width: calc(33.3333% - (32px / 3));
+    }
+
+    /* Banner */
+    .banner__text {
+        width: 100%;
+    }
+
+    .banner__img {
+        display: none;
     }
 }
 
