@@ -387,4 +387,25 @@ footer {
     }
 }
 
-/* iPhone */
+/* Mobile Devices */
+@media (max-width: 480px) {
+    /* Header */
+    .header__grid__title {
+        left: 4px;
+        bottom: 4px;
+    }
+
+    /* Products */
+    .product {
+        width: 100%;
+    }
+
+    /* Newsletter */
+    .newsletter__form {
+        flex-direction: column;
+    }
+
+    .newsletter__form__input {
+        text-align: center;
+    }
+}
