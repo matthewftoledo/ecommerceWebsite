@@ -372,5 +372,19 @@ footer {
     }
 
     /* Header */
-    
+    .header__title {
+        text-align: center;
+    }
+
+    .header__grid__title {
+        font-size: 24px;
+        left: 12px;
+    }
+
+    /* Products */
+    .product {
+        width: calc(50% - (16px / 2));
+    }
 }
+
+/* iPhone */
